@@ -1,0 +1,98 @@
+@import url(assets/stylesheets/materialize.min.css);
+body {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.btn-slider {
+  background-color: #e91e63;
+  padding: 15px;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px; }
+
+.caption {
+  margin-top: 70px; }
+
+nav {
+  position: fixed;
+  z-index: 2; }
+  nav p {
+    display: inline-block;
+    color: #999; }
+  nav #nav-demo {
+    background-color: #ffffff; }
+  nav #nav-principal {
+    background-color: transparent; }
+
+.row .col {
+  padding: 0; }
+
+.slider.fullscreen {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+  padding: 0; }
+
+#conten-segundaParte {
+  background-color: #ffffff;
+  border-radius: 10px;
+  position: relative;
+  bottom: 100px; }
+  #conten-segundaParte p {
+    color: #999;
+    padding: 40px;
+    padding-right: 150px;
+    padding-left: 150px;
+    font-size: 20px; }
+  #conten-segundaParte h5 {
+    color: #3c4858; }
+  #conten-segundaParte .p-icons {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px; }
+  #conten-segundaParte .tresicons {
+    font-size: 70px;
+    color: #e91e63; }
+  #conten-segundaParte .qual {
+    color: #00bcd4; }
+  #conten-segundaParte .sup {
+    color: #4caf50; }
+
+#terceraParte {
+  background-image: url(../img/img_city.jpg);
+  background-size: cover;
+  height: 500px; }
+  #terceraParte .fondo {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 500px; }
+    #terceraParte .fondo #p-tp {
+      padding-left: 10px;
+      padding-right: 0;
+      color: white;
+      font-size: 15px; }
+    #terceraParte .fondo h3 {
+      color: white;
+      font-family: 'Slabo 27px', serif;
+      font-weight: bold;
+      padding-top: 50px; }
+
+#tablet {
+  width: 400px;
+  margin-top: 50px;
+  margin-left: 30px; }
+
+nav i.material-icons {
+  display: inline-block; }
+
+.material-icons {
+  color: #999; }
+
+.material-icons:hover {
+  color: #3c4858; }
+
+/*# sourceMappingURL=main.css.map */

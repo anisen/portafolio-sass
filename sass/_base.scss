@@ -1,0 +1,106 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.btn-slider{
+	@include boton();
+	border-style:none;
+	border-radius:5px;
+	padding-left:25px;
+	padding-right:25px;
+}
+.caption{
+	margin-top:70px;
+}
+nav{
+	position:fixed;
+	z-index:2;
+	p{
+		display:inline-block;
+		color:$text_p;
+	}
+	#nav-demo{
+		background-color:$color_text;
+	}
+	#nav-principal{
+		background-color:transparent;
+	}
+}
+.row .col{
+	padding:0;
+}
+.slider.fullscreen{
+	position:relative;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	left:0;
+	right:0;
+	bottom:100px;
+	padding:0;
+}
+#conten-segundaParte{
+	background-color:$color-text;
+	border-radius:10px;
+	position:relative;
+	bottom:100px;
+	p{
+		color:$text_p;
+		padding:40px;
+		padding-right:150px;
+		padding-left:150px;
+		font-size:20px;
+	}
+	h5{
+		color:$text_h;
+	}
+	.p-icons{
+		padding-left:10px;
+		padding-right:10px;
+		font-size:12px;
+	}
+	.tresicons{
+		font-size:70px;
+		color:$color_rosa;
+	}
+	.qual{
+		color:#00bcd4;
+	}
+	.sup{
+		color:#4caf50;
+	}
+}
+#terceraParte{
+	background-image:url(../img/img_city.jpg);
+	background-size:cover;
+	height:500px;
+	.fondo{
+		background-color: rgba(0,0,0,0.7);
+		height:500px;
+		#p-tp{
+			padding-left:10px;
+			padding-right:0;
+			color:white;
+			font-size:15px;
+		}
+		h3{
+			color:white;
+			font-family: 'Slabo 27px', serif;
+			font-weight:bold;
+			padding-top:50px;
+		}
+	}
+}
+#tablet{
+	width:400px;
+	margin-top:50px;
+	margin-left:30px;
+}
+nav i.material-icons{
+	display:inline-block;
+}
+.material-icons{
+	color:$text_p;
+}
+.material-icons:hover{
+	color:$text_h;
+}
